@@ -1,0 +1,14 @@
+var myApp = angular.module('myApp', []);
+
+myApp.controller('myController', function() {
+	this.people = [
+		{
+	          name: 'Una',
+                  age: 32
+                },
+		{
+	          name: 'Suzanne',
+		  age: 81
+		}
+		];
+}); 
